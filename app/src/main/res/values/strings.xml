@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">AirportExplore</string>
+    <string name="api_base_url">https://airportdb.io/api/v1/</string>
+    <!-- EN -->
+    <string name="FindAirportText">Find Airport</string>
+    <string name="enterAirportText">Enter Airport ICAO</string>
+    <string name="searchButtonText">Search</string>
+    <string name="LoadingText">Loading</string>
+    <string name="AirportInfo">Airport Info</string>
+    <string name="elevation">Elevation: %s ft</string>
+    <string name="icao">ICAO: %s IATA: %s</string>
+    <string name="runwayTitle">Runways</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="runwaysInfoTab">Runways Info</string>
+    <string name="metarInfoTab">METAR</string>
+    <string name="navaidsInfoTab">Navaids</string>
+    <string name="noData">No data available</string>
+    <string name="Loading">Loading data...</string>
+    <string name="metarEndpoint">https://api.checkwx.com/metar/%s/nearest</string>
+    <!-- EN -->
+</resources>

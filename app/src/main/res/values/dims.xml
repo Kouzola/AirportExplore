@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bigTextDim">40sp</dimen>
+    <dimen name="mediumTitleText">25sp</dimen>
+    <dimen name="spaceBetweenText">12dp</dimen>
+    <dimen name="spaceBetweenTextTitle">26dp</dimen>
+    <dimen name="spaceBetweenTextSameLine">15dp</dimen>
+</resources>

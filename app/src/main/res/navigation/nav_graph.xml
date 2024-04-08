@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/findAirportFragment">
+    <fragment
+        android:id="@+id/findAirportFragment"
+        android:name="com.aldev.airportexplore.FindAirportFragment"
+        tools:layout="@layout/fragment_find_airport">
+        <action
+            android:id="@+id/action_findAirportFragment_to_airportInfoFragment2"
+            app:destination="@id/airportInfoFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/airportInfoFragment2"
+        android:name="com.aldev.airportexplore.AirportInfoFragment"
+        android:label="Airport Info"
+        tools:layout="@layout/fragment_airport_info">
+        <action
+            android:id="@+id/action_airportInfoFragment2_to_findAirportFragment"
+            app:destination="@id/findAirportFragment" />
+    </fragment>
+</navigation>
